@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Platform</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <link rel="stylesheet" href="frontend/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#mentors" class="nav-link">Mentors</a></li>
+            <li><a href="#apply" class="nav-link">Apply</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <h1>Welcome to the Mentorship Platform</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Industry Knowledge Test</h3>
+                    <p>Week 1</p>
+                    <p>Duration: 1-2 hours</p>
+                    <p>Multiple-choice quiz to assess industry knowledge</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Report Submission</h3>
+                    <p>Weeks 1-4</p>
+                    <p>Duration: Ongoing</p>
+                    <p>Research and submit a written report</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Online Interview</h3>
+                    <p>Week 3</p>
+                    <p>Duration: 30-45 minutes</p>
+                    <p>Video interview to evaluate communication skills</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Aptitude Test</h3>
+                    <p>Week 4</p>
+                    <p>Duration: 1 hour</p>
+                    <p>Interactive problem-solving assessment</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mentors Section -->
+        <section id="mentors" class="section">
+            <h2>Our Mentors</h2>
+            <div class="mentor-grid">
+                <div class="mentor-card">
+                    <h3>John Doe</h3>
+                    <p>Senior Software Engineer</p>
+                    <p>10+ years experience</p>
+                    <p>Expertise: Web Development, Cloud Architecture</p>
+                    <button>View Profile</button>
+                </div>
+                <div class="mentor-card">
+                    <h3>Jane Smith</h3>
+                    <p>Product Manager</p>
+                    <p>8 years experience</p>
+                    <p>Expertise: Product Strategy, Agile Management</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Section -->
+        <section id="apply" class="section">
+            <h2>Apply for Mentorship</h2>
+            <form id="application-form">
+                <div class="form-step">
+                    <h3>Step 1: Basic Information</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+                <div class="form-step">
+                    <h3>Step 2: Your Goals</h3>
+                    <div class="form-group">
+                        <label for="goals">What are your goals for this mentorship?</label>
+                        <textarea id="goals" rows="4" required></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>Our Team</h2>
+            <div class="mentor-grid">
+                <div class="mentor-card">
+                    <h3>Evan Tok</h3>
+                    <ul>
+                        <li>Cofounder</li>
+                        <li>Started e-commerce business, worked as software engineer in banks and SME</li>
+                        <li>Expertise: Front-end Development, Interactive Web Development, Cloud Architecture</li>
+                    </ul>
+                    <button >Linked In</button>
+                    
+                </div>
+                <div class="mentor-card">
+                    <h3>Jane Smith</h3>
+                    <p>Product Manager</p>
+                    <p>8 years experience</p>
+                    <p>Expertise: Product Strategy, Agile Management</p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+        </section>
+
+
+        <script src = "homepage.js"></script>
+    </div>
+</body>
+</html>
