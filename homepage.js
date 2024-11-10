@@ -9,7 +9,7 @@
         document.getElementById(targetId).classList.add('active');
     });
 });
-*/
+
 // Form handling
 document.getElementById('application-form').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -28,3 +28,4 @@ gsap.from('.timeline-item', {
         start: 'top center'
     }
 });
+
