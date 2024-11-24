@@ -1,5 +1,5 @@
 // Navigation
-/*document.querySelectorAll('.nav-link').forEach(link => {
+document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         const targetId = e.target.getAttribute('href').substring(1);
